@@ -36,8 +36,8 @@ def palm(x_upperblock, y_upperblock, width, height):
 
 
 palm(end_x*0.5, end_y*0.3, end_x*0.04, end_y*0.2)
-#palm(end_x*0.2, end_y*0.3, end_x*0.03, end_y*0.16)
-#palm(end_x*0.35, end_y*0.3, end_x*0.03, end_y*0.10)
+palm(end_x*0.2, end_y*0.3, end_x*0.03, end_y*0.16)
+palm(end_x*0.35, end_y*0.3, end_x*0.03, end_y*0.10)
 
 pygame.display.update()
 clock = pygame.time.Clock()
